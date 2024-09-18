@@ -1,0 +1,23 @@
+เริ่มที่ 
+1.docker -v
+2.docker run hello-world
+3.docker ps --all
+docker run hello-world echo 'hi docker'
+docker run busybox echo 'hello world in docker'
+docker run bustbox ls
+docker run busybox ping google.com
+docker run busybox ping google.com
+docker stop 51ae9b1d948c
+docker stop 7c892b2618fb
+docker ps --all
+docker pull busybox
+docker create busybox ping google.com
+docker start 51ae9b1d948cef1d4132fe2449a7e9673a3555e720f883c0f883d59905471875
+docker start
+docker system prune
+docker run nginx
+docker run -p 8800:80 nginx
+docker exec c8e44ef63552 ls
+docker exec -it c8e44ef63552 sh
+docker exec -it c8e44ef63552 bash
+docker stop 51ae9b1d948c
